@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*main{
+    width: 95%;
+    margin: auto;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}*/
+body{
+    background-color: gray;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+        "h h h h"
+        "n n n n"
+        "a t t s";
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header{
+    grid-area:h;  
+}
+nav{
+    grid-area:n; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+
+aside{
+    grid-area:a;  
+    padding: 5px;
+}
+article{
+    grid-area:t;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+section{
+    grid-area:s;  
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#osszAr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5px;
+}
+
+.aruhaz{
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    height: 350px; 
+}
+img{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+tr{
+    display: grid;
+    grid-template-columns: 60% auto 29% auto;
+    text-align: left;
+}
+
+.jobb{
+    text-align: right;
+}
+.gombok{
+    color: red;
+}

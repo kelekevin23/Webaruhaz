@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body{
+    background-color: gray;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+        "h h h"
+        "n n n"
+        "s s s";
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header{
+    grid-area:h;  
+}
+nav{
+    grid-area:n; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+
+section{
+    grid-area:s;  
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+#osszAr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    padding-top: 5px;
+}
+
+table{
+    width: 100%;
+}
+tr{
+    display: grid;
+    grid-template-columns: 60% auto 29% auto;
+    text-align: left;
+}
+
+.jobb{
+    text-align: right;
+}
+.gombok{
+    color: red;
+}
