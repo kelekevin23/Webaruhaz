@@ -1,13 +1,6 @@
 {
   "termekek": [
     {
-      "id": 1,
-      "nev": "Csodás tájkép",
-      "leiras": "Tükröződő fák egy kis tó partján a Duna mentén.",
-      "ar": 20000,
-      "kep": "kepek/kep_1.jpeg"
-    },
-    {
       "id": 2,
       "nev": "Tiszai gát",
       "leiras": "Poroszló menti Tisza töltés viharos időben.",
@@ -32,8 +25,15 @@
       "id": 5,
       "nev": "Viadukt",
       "leiras": "Biatorbágyi viadukt a fák között.",
-      "ar": 2300,
-      "kep": "kepek/kep_5.jpeg"
+      "ar": "2300",
+      "kep": "kepek/kep_4.jpeg"
+    },
+    {
+      "id": 6,
+      "nev": "Régi présház",
+      "leiras": "Elhagyott présház Biatorbágy fölött.",
+      "ar": 3000,
+      "kep": "kepek/kep_6.jpeg"
     },
     {
       "id": 7,

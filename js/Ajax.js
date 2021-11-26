@@ -31,7 +31,7 @@ class AjaxHivas{
     }
 
     putAjax(fajlnev, adat, id) {
-        const termekek = [];
+        
         $.ajax({
             url: fajlnev+"/"+id,
             type: "PUT",
@@ -47,7 +47,6 @@ class AjaxHivas{
             url: fajlnev+"/"+id,
             type: "DELETE",
             success: function(result) {
-                
             },
         });
     }

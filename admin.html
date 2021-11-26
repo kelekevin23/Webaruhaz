@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="hu">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kelemen Kevin</title>
-        <link rel="stylesheet" href="css/admin.css">
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/admin.js"></script>
-        <script src="js/Termek.js"></script>
-        <script src="js/Ajax.js"></script>
 
-    </head>
-    <body>
-        <main>
-            <header><h1>Webáruház</h1></header>
-            <nav>
-                <li><a class="li"href="index.html">Kezdőlap</a></li>
-                <li><a class="li"href="fizetes.html">Fizetés</a></li>
-                <li><a class="li"href="admin.html">Admin felület</a></li>  
-                
-                
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelemen Kevin</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/Termek.js"></script>
+    <script src="js/Ajax.js"></script>
 
-            <article>
-                <table class="tartalom">
-                    <tr>
-                        <th>Termék neve</th>
-                        <th>Kép</th>
-                        <th>Leírás</th>
-                        <th>ár</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
+</head>
 
+<body>
+    <main>
+        <header>
+            <h1>Webáruház</h1>
+        </header>
+        <nav>
+            <li><a class="li" href="index.html">Kezdőlap</a></li>
+            <li><a class="li" href="fizetes.html">Fizetés</a></li>
+            <li><a class="li" href="admin.html">Admin felület</a></li>
+
+
+        </nav>
+
+        <article>
+            <table class="tartalom">
+                <tr>
+                    <th>Termék neve</th>
+                    <th>Kép</th>
+                    <th>Leírás</th>
+                    <th>ár</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                <thead>
                     <tr class="aruhaz">
                         <td class="termeknev"></td>
                         <td class="kep"><img src="" alt=""></td>
@@ -42,31 +47,34 @@
                         <td><button class="torol">Töröl</button></td>
                         <td><button class="modosit">Módosít</button></td>
                     </tr>
-                </table>
-            </article>
+                </thead>
+            </table>
+        </article>
 
-            <section>
-                <form action="#" class="form">
+        <section>
+            <form action="#" class="form">
                 <fieldset>
                     <legend>Adatok</legend>
                     <div class="mezo">
-                    <label for="tnev">Termék neve: </label>
-                    <input type="text" name="tnev" id="tnev">
+                        <label for="tnev">Termék neve: </label>
+                        <input type="text" name="tnev" id="tnev">
 
-                    <label for="kep">Kép: </label>
-                    <input type="file" name="kep" id="kep">
+                        <label for="kep">Kép: </label>
+                        <input type="file" name="kep" id="kep">
 
-                    <label for="leiras">Leírás: </label>
-                    <input type="text" name="leiras" id="leiras">
+                        <label for="leiras">Leírás: </label>
+                        <input type="text" name="leiras" id="leiras">
 
-                    <label for="ar">Ár:</label>
-                    <input type="number" name="ar" id="ar">
-                    <br>
-                    <input type="button" name="button" id="button" value="Küldés">
+                        <label for="ar">Ár:</label>
+                        <input type="number" name="ar" id="ar">
+
+                        <input type="button" name="uj" id="uj" value="Új termék">
+                        <input type="button" name="mod" id="mod" value="Módosít">
                     </div>
                 </fieldset>
-                  </form>
-            </section>
-        </main>
-    </body>
+            </form>
+        </section>
+    </main>
+</body>
+
 </html>

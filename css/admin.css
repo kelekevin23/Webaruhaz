@@ -72,6 +72,5 @@ tr:nth-child(odd){
 }
 section{
     grid-area:s;   
-    
-   
+    margin: auto;
 }
